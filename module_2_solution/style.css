@@ -1,0 +1,82 @@
+h1{
+    font-size: 175%;
+    font-family:"Georgia";
+    text-align: center;
+}
+h2{
+    margin-block: 0px;
+    border-bottom: black solid;
+    border-left: black solid;
+    display: inline;
+    float: right;
+    padding: 5px 10px 5px 10px;
+    font-family:"Georgia";
+    font-size: 175%;
+}
+.color1{
+    background-color: cadetblue;
+}
+.color2{
+    background-color:fuchsia ;
+}
+.color3{
+    background-color: coral;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+width: 100%;
+}
+
+p{
+    padding: 10px;
+    clear: both;
+    font-size: 125%;
+    color:white;
+}
+
+span{
+    float: right;
+}
+
+@media (min-width : 992px) {
+    .col-lg-3{
+        border: black 2px solid;
+        float: left;
+        width: 31.33%;
+        margin: 1%;
+        background-color: gray;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-2,.col-md-1{
+        border: black 2px solid;
+        float: left;
+        background-color: gray;
+        margin: 1%;
+    }
+    .col-md-2{
+        width: 48%;
+ 
+    }
+    .col-md-1{
+        width: 98%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .col-sm-1{
+        border: black 2px solid;
+        float: left;
+        background-color: gray;
+        margin: 1%;
+        width: 98%;
+
+    }
+    
+}
