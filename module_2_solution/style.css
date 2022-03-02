@@ -5,8 +5,8 @@ h1{
 }
 h2{
     margin-block: 0px;
-    border-bottom: black solid;
-    border-left: black solid;
+    border-bottom: black solid 1px;
+    border-left: black solid 1px;
     display: inline;
     float: right;
     padding: 5px 10px 5px 10px;
@@ -43,7 +43,7 @@ span{
 
 @media (min-width : 992px) {
     .col-lg-3{
-        border: black 2px solid;
+        border: black 1px solid;
         float: left;
         width: 31.33%;
         margin: 1%;
@@ -54,7 +54,7 @@ span{
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-2,.col-md-1{
-        border: black 2px solid;
+        border: black 1px solid;
         float: left;
         background-color: gray;
         margin: 1%;
@@ -71,7 +71,7 @@ span{
 
 @media (max-width: 767px) {
     .col-sm-1{
-        border: black 2px solid;
+        border: black 1px solid;
         float: left;
         background-color: gray;
         margin: 1%;
